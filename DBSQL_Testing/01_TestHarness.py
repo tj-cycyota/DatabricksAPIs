@@ -7,6 +7,11 @@
 
 # COMMAND ----------
 
+# MAGIC %python
+# MAGIC dbutils.notebook.entry_point.getDbutils().notebook().getContext().apiUrl().get()
+
+# COMMAND ----------
+
 import time
 import os
 import random
